@@ -1,0 +1,176 @@
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+body {
+  background-color: #eee;
+  font-family: Helvetica,Arial,sans-serif;
+}
+/*index page*/
+.index {
+  color: #295ba6;
+  font-size: 14px;
+  font-family: "Helvetica";
+  margin: 0px 0px 15px;
+  padding: 30px 0px 25px;
+}
+.titulo {
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  color: #295ba7;
+}
+.botonesIngreso {
+  height: 90px;
+  width: 90px;
+}
+.botones {
+  background-color: #FFF;
+  height: 15em;
+  width: 15em;
+  border: 1px solid #315380;
+  border-radius: 3px;
+  color: #315380;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 100%;
+  text-align: center;
+  padding: 0 32px;
+  display: inline-block;
+  box-shadow: 0 3px 0 0 #b9451a
+}
+.botonesMinimizados {
+  background-color: #FFF;
+  height: 1.4em;
+  width: 15em;
+  border: 1px solid #315380;
+  border-radius: 5px;
+  color: #315380;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 75%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.botones:hover {
+  background-color: #02487D;
+  color: #FFF;
+}
+.botonesMinimizados:hover {
+  background-color: #02487D;
+  color: #FFF;
+}
+table {
+  margin: auto;
+  width: 50% !important;
+}
+.box {
+  width:14em;
+  height:14em;
+  top:50%;
+  left:50%;
+  margin: 50px auto;
+  text-align: center;
+}
+.miTabla td{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%
+}
+.error {
+  background-color: pink;
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  /*width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;*/
+}
+.accion {
+  background-color: lightgreen;
+  text-align: center;
+  border-style: solid;
+  border-color: green;
+  color: black;
+  /*width: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;*/
+}
+.espacio-30{
+  height: 30px;
+}
+.espacio-20{
+  height: 20px;
+}
+.espacio-10{
+  height: 10px;
+}
+.login {
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+.login h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #295ba7;
+  color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.login form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  background-color: #295ba7;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: #aaa;
+  transition: background-color 0.2s;
+}
+.logo {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+  align-content: flex-start;
+  text-align: left;
+  vertical-align: middle;
+  display: block;
+}

@@ -1,0 +1,199 @@
+<div class="container-fluid">
+
+	<div class="card" class="col-md-6">
+		<div class="card-header">
+			Educación y Experiencia
+		</div>
+		<div class="card-body">
+			<form method="POST" action="controller/EduExp.php">
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Educación</h3>
+						<div class="form-group">
+							<h5>Capacitación trabajo</h5>
+							<select class="form-control" name="CAPACITATION">
+									<option disabled selected>Capacitación trabajo</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Formal</h5>
+							<select class="form-control" id=""  name="FORMAL">
+									<option disabled selected>¿Formal?</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Título</h5>
+							<input type="text" class="form-control" placeholder="Título" name="TITLE">
+						</div>
+						<div class="form-group">
+							<h5>Institución</h5>
+							<input type="text" class="form-control" placeholder="Institución" name="INSTITUTION">
+						</div>
+						<div class="form-group">
+							<h5>Modalidad</h5>
+							<select class="form-control" name="MODALITY">
+								<option value="Modalidad" selected disabled>Modalidad</option>
+								<option value="Presencial">Presencial</option>
+								<option value="Virtual">Virtual</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<h5>Año finalización</h5>
+							<input type="number" class="form-control" placeholder="Año finalización" name="YEAR">
+						</div>
+						<div class="form-group">
+							<h5>Mes Finalización</h5>
+							<select class="form-control" name="MONTH">
+								<option value="Mes finalización" selected disabled>Mes finalización</option>
+								<option value="1">Enero</option>
+								<option value="2">Febrero</option>
+								<option value="3">Marzo</option>
+								<option value="4">Abril</option>
+								<option value="5">Mayo</option>
+								<option value="6">Junio</option>
+								<option value="7">Julio</option>
+								<option value="8">Agosto</option>
+								<option value="9">Septiembre</option>
+								<option value="10">Octubre</option>
+								<option value="11">Noviembre</option>
+								<option value="12">Diciembre</option>
+								
+							</select>
+						</div>
+						<div class="form-group">
+							<h5>¿Terminó?</h5>
+							<select class="form-control" id=""  name="FINISHED">
+									<option disabled selected>¿Terminó?</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Meses estudio</h5>
+							<input type="number" class="form-control" placeholder="Meses estudio" name="MONTHS">
+						</div>
+						
+					</div>
+					<div class="col-md-6">
+						<h3>Experiencia</h3>
+						<div class="form-group">
+							<h5>Empresa</h5>
+							<input type="text" class="form-control" placeholder="Empresa" name="COMPANY">
+						</div>
+						<div class="form-group">
+							<h5>Teléfono</h5>
+							<input type="number" class="form-control" placeholder="Teléfono" name="PHONE">
+						</div>
+						<div class="form-group">
+							<h5>Municipio</h5>
+							<select class="selectpicker form-control" name="TOWN" data-live-search="true">
+									<option disabled selected>Municipio</option>
+									<?php
+									$Q="SELECT   t3.id AS id, concat(t2.descripcion, ', ', t3.descripcion) AS descripcion FROM     codigos AS t1 LEFT JOIN codigos AS t2 ON t2.id_padre = t1.id LEFT JOIN codigos AS t3 ON t3.id_padre = t2.id WHERE    t1.descripcion = 'DEPARTAMENTO' AND concat(t2.descripcion, ', ', t3.descripcion) LIKE '%%' ORDER BY 2 ASC";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+
+
+						</div>
+						<div class="form-group">
+							<h5>Pasantia</h5>
+							<select class="form-control" id="" name="INTERNSHIP">
+									<option disabled selected>¿Pasantia?</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Fecha de ingreso</h5>
+							<input type="date" class="form-control" placeholder="Fecha de ingreso" name="DATE1">
+						</div>
+						<div class="form-group">
+							<h5>Empleo Actual</h5>
+							<select class="form-control" id=""  name="WORK">
+									<option disabled selected>Empleo actual</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Fecha de salida</h5>
+							<input type="date" class="form-control" placeholder="Fecha de salida" name="DATE2">
+						</div>
+						<div class="form-group">
+							<h5>Ocupación</h5>
+							<select class="form-control" id="" placeholder="Ocupación"  name="OCUPATION">
+									<option disabled selected>Ocupación</option>
+									<?php
+									$Q="SELECT * from codigos where id_padre=2199";
+									foreach ($db->query($Q) as $Row) {
+										?>
+										<option value="<?=$Row['id']?>"><?=$Row["descripcion"]?></option>
+										<?php
+									}
+									?>
+
+								</select>
+						</div>
+						<div class="form-group">
+							<h5>Cargo</h5>
+							<input type="text" class="form-control" placeholder="Cargo" name="POSITION">
+						</div>
+						<div class="form-group">
+							<h5>Logros</h5>
+							<input type="text" class="form-control" placeholder="Logros" name="AWARDS">
+						</div>
+						
+					</div>
+				</div>
+				<hr>
+				<center><input type="submit" class="btn btn-primary" value="Registrar información" name=""></center>
+			</form>
+
+		</div>
+	</div>
+</div>

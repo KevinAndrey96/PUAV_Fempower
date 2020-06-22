@@ -1,0 +1,227 @@
+/*
+    Created on : Apr 13, 2020, 7:21:10 PM
+    Author     : msancheze
+*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+label {
+  display: inline-flex;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+#discapacidades {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#workOferente {
+  background: linear-gradient(to right,#02487D 80%,#2b8e8b);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+}
+#workOferente label {
+  float: left;
+  /*width: 50%;*/
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#workOferente .form-control{
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  height: 44px;
+  line-height: 2;
+  color: #fff;
+  padding: 10px 15px;
+}
+#workOferente .form-group{
+  margin-bottom: 30px;
+}
+#workOferente .check{
+  display: none;
+}
+#workOferente .check + label{
+  display: inline-block;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 5px;
+  padding: 10px 0;
+  color: #fff;
+  width: 30%;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 10px;
+}
+#workOferente #generoCodigo2 + label{
+  margin-right: 0;
+}
+#workOferente .check:checked + label{
+  background: #fff;
+  color: #0062bd;
+  align-self: center;
+}
+#workOferente select.form-control option{
+  color: #000;
+  background: #fff;
+}
+#workOferente .btn{
+  color: #fff;
+  background-color: #2b8e8b;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: all 0.2s ease 0s;
+}
+#workOferente .btn:hover{
+  color: #0062bd;
+  background: #fff;
+}
+.clear {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+.logoMenu {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: -25px;
+  position: absolute;
+  align-content: left;
+  text-align: left;
+  vertical-align: middle;
+}
+hr {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  color: blue;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+.letra_titulo{
+  font-family: Verdana, 'Times New Roman', serif;
+  color: #fff;
+  font-weight: bold;
+  font-size:18px;
+}
+.miboton {
+  background-color: #295ba7;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 15px 15px 15px 15px;
+}
+.miboton:hover {
+  background-color: #aaa;
+  text-decoration-color: #295ba7;
+  transition: background-color 0.2s;
+}
+.miboton:visited {
+  background-color: #295ba7;
+}
+.bs-example{
+  margin: 20px;
+}
+.myForm {
+  background: linear-gradient(to right,#02487D 80%,#2b8e8b);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+}
+.myForm label {
+  float: left;
+  /*width: 50%;*/
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.myForm .form-control{
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  height: 44px;
+  line-height: 2;
+  color: #fff;
+  padding: 10px 15px;
+}
+.myForm .form-group{
+  margin-bottom: 30px;
+}
+.myForm .check{
+  display: none;
+}
+.myForm .check + label{
+  display: inline-block;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 5px;
+  padding: 10px 0;
+  color: #fff;
+  width: 30%;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.myForm #generoCodigo2 + label{
+  margin-right: 0;
+}
+.myForm .check:checked + label{
+  background: #fff;
+  color: #0062bd;
+  align-self: middle;
+}
+.myForm select.form-control option{
+  color: #000;
+  background: #fff;
+}
+.myForm .btn{
+  color: #fff;
+  background-color: #2b8e8b;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: all 0.2s ease 0s;
+}
+.myForm .btn:hover{
+  color: #0062bd;
+  background: #fff;
+}
+.derecha {
+  align: right;
+}
+.mitad{
+  padding: 70px;
+}
+.accordion .fa{
+  margin-right: 0.5rem;
+}
+@media (min-width: 768px) {
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+  }
+}
+.mylabel {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #02487D;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */

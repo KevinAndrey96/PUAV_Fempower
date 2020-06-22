@@ -1,0 +1,651 @@
+[26-May-2020 18:07:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php:22
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/Vacant.php(22): PDO->query('INSERT INTO dem...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php on line 22
+[26-May-2020 19:09:50 UTC] PHP Notice:  Undefined index: UserName in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php on line 16
+[26-May-2020 19:09:50 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php on line 21
+[26-May-2020 19:10:49 UTC] PHP Notice:  Undefined index: UserName in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php on line 16
+[26-May-2020 19:10:49 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/Vacant.php on line 21
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: MARITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 14
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: EXTRANGER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 15
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 20
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 21
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 22
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 23
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 24
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 25
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 26
+[27-May-2020 00:34:08 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 27
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 20
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 21
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 22
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 23
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 24
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 25
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 26
+[27-May-2020 00:38:46 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 27
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 28
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 37
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 46
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 55
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 64
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 73
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 82
+[27-May-2020 00:46:46 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 83
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 85
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 91
+[27-May-2020 01:49:47 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 96
+[27-May-2020 01:49:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Primero,Segundo,Primer,Segund,2020-05-12,3155556633,3122225544,42,20,Calle 5,43,' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:97
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(97): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 97
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 85
+[27-May-2020 01:50:19 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 91
+[27-May-2020 01:50:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5,43,2262,2201,4552,2200,4496,1,0,0,0,0,0,0,,,2,2200,2,3,2245)' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:97
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(97): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 97
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 93
+[27-May-2020 01:52:36 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 106
+[27-May-2020 01:52:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5,43,2262,2201,4552,2200,4496,1,0,0,0,0,0,0,0,0,2,2200,2,3,2245)' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:112
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(112): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 112
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 93
+[27-May-2020 01:53:16 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 106
+[27-May-2020 01:53:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5,43,2262,2201,4552,2200,4496,1,0,0,0,0,0,0,0,0,2,2200,2,3,2245)' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:112
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(112): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 112
+[27-May-2020 01:57:13 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 100
+[27-May-2020 01:57:13 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 105
+[27-May-2020 01:57:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Primero,Segundo,Prime,Segun,2020-05-01,3144411122,3122225554,47,19,Calle 78,42,2' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:106
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(106): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 106
+[27-May-2020 01:58:07 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 100
+[27-May-2020 01:58:07 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 105
+[27-May-2020 01:58:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Primero,Segundo,Prime,Segun,2020-05-01,3144411122,3122225554,47,19,Calle 78,42,2' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:106
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(106): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 106
+[27-May-2020 01:58:22 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 100
+[27-May-2020 01:58:22 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 105
+[27-May-2020 01:58:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Primero,Segundo,Prime,Segun,2020-05-01,3144411122,3122225554,47,19,Calle 78,42,2' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php:106
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php(106): PDO->query('INSERT into ofe...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 106
+[27-May-2020 01:59:06 UTC] PHP Notice:  Undefined variable: USER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 100
+[27-May-2020 01:59:06 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 105
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: FIRSTNAME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 5
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: SECONDNAME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: LASTNAME1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 7
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: LASTNAME2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: BIRTHDATE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 9
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: PHONE1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 10
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: PHONE2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 11
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: GENDER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 13
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: TOWN2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 15
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: MARITAL in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 16
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: FOREIGNER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 17
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 18
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 19
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: ETHNICITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 20
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 21
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 93
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: PEOPLE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 95
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: ZONE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 96
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: STRATUM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 97
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: TIME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 98
+[27-May-2020 02:17:21 UTC] PHP Notice:  Undefined index: SALARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 99
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: FIRSTNAME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 5
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: SECONDNAME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: LASTNAME1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 7
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: LASTNAME2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: BIRTHDATE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 9
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: PHONE1 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 10
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: PHONE2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 11
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: GENDER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 13
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: TOWN2 in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 15
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: MARITAL in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 16
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: FOREIGNER in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 17
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 18
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 19
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: ETHNICITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 20
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 21
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 30
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 39
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 48
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 57
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 66
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 75
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: VICTIM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 84
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 93
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: PEOPLE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 95
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: ZONE in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 96
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: STRATUM in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 97
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: TIME in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 98
+[27-May-2020 02:17:51 UTC] PHP Notice:  Undefined index: SALARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 99
+[27-May-2020 02:22:41 UTC] PHP Notice:  Undefined index: NIT in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:22:41 UTC] PHP Notice:  Undefined index: CIIU in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:22:41 UTC] PHP Notice:  Undefined variable: URL in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 24
+[27-May-2020 02:45:52 UTC] PHP Notice:  Undefined index: NIT in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:45:52 UTC] PHP Notice:  Undefined index: CIIU in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:45:52 UTC] PHP Notice:  Undefined variable: URL in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 24
+[27-May-2020 02:46:13 UTC] PHP Notice:  Undefined index: NIT in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:46:13 UTC] PHP Notice:  Undefined index: CIIU in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:46:13 UTC] PHP Notice:  Undefined variable: URL in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 24
+[27-May-2020 02:46:32 UTC] PHP Notice:  Undefined index: NIT in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:46:32 UTC] PHP Notice:  Undefined index: CIIU in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 02:46:59 UTC] PHP Parse error:  syntax error, unexpected '$USER' (T_VARIABLE) in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 18
+[27-May-2020 02:47:07 UTC] PHP Notice:  Undefined index: NIT in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 6
+[27-May-2020 02:47:08 UTC] PHP Notice:  Undefined index: CIIU in /home/khcjsr6753m8/public_html/puav/controller/CompleteD.php on line 8
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: FOREIGNER in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 17
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 03:01:44 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 93
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 03:46:15 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 93
+[27-May-2020 03:47:51 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 03:47:51 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 03:47:51 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 03:47:51 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 03:47:52 UTC] PHP Notice:  Undefined index: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 93
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 16:47:24 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 16:49:04 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 16:49:04 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 16:49:04 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 16:56:15 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 16:56:15 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 16:56:15 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 16:58:33 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 17:11:34 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 17:29:15 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 30
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 39
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 48
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 57
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 66
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 75
+[27-May-2020 17:29:51 UTC] PHP Notice:  Undefined variable: ORIENTATION in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 107
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[27-May-2020 17:32:07 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[27-May-2020 17:33:02 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[27-May-2020 17:34:54 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[28-May-2020 00:48:11 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[29-May-2020 03:36:28 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: ZONE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 104
+[29-May-2020 03:50:11 UTC] PHP Notice:  Undefined index: STRATUM in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 105
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: MILITARY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 19
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 21
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[29-May-2020 03:51:43 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: COUNTRY in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 18
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 38
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 47
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 56
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 65
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 74
+[29-May-2020 16:50:54 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/CompleteO.php on line 83
+[29-May-2020 18:16:42 UTC] PHP Notice:  Undefined index: DATE2 in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 36
+[29-May-2020 18:17:16 UTC] PHP Notice:  Undefined index: DATE2 in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 36
+[29-May-2020 22:30:55 UTC] PHP Notice:  Undefined index: UserName in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 48
+[29-May-2020 22:30:55 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 54
+[29-May-2020 22:30:55 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 62
+[29-May-2020 23:28:24 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:28:24 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:28:24 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:28:24 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:28:24 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:28:43 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:28:43 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:28:43 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:28:43 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:28:43 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:28:57 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:28:57 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:28:57 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:28:57 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:28:57 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:29:11 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:29:11 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:29:11 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:29:11 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:29:11 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:29:23 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:29:23 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:29:23 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:29:23 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:29:23 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:29:34 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:29:34 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:29:34 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:29:34 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:29:34 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[29-May-2020 23:36:54 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[29-May-2020 23:36:54 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[29-May-2020 23:36:54 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[29-May-2020 23:36:54 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[29-May-2020 23:36:54 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[01-Jun-2020 03:16:33 UTC] PHP Notice:  Undefined index: UserName in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 27
+[01-Jun-2020 03:16:33 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 32
+[01-Jun-2020 03:16:33 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 38
+[01-Jun-2020 03:16:33 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EduExp.php on line 46
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[11-Jun-2020 00:04:50 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[11-Jun-2020 00:16:26 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[11-Jun-2020 00:19:01 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[12-Jun-2020 21:00:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 124
+[12-Jun-2020 21:01:38 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 40
+[12-Jun-2020 21:01:38 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 58
+[12-Jun-2020 21:01:38 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 67
+[12-Jun-2020 21:01:38 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 76
+[12-Jun-2020 21:01:38 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 85
+[12-Jun-2020 21:02:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 124
+[12-Jun-2020 21:03:22 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[12-Jun-2020 21:03:22 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[12-Jun-2020 21:03:22 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[12-Jun-2020 21:03:22 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[12-Jun-2020 21:03:22 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[12-Jun-2020 21:03:49 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[12-Jun-2020 21:03:50 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[12-Jun-2020 21:03:50 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[12-Jun-2020 21:03:50 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[12-Jun-2020 21:03:50 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[12-Jun-2020 21:04:36 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[12-Jun-2020 21:04:36 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[12-Jun-2020 21:04:36 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[12-Jun-2020 21:04:36 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[12-Jun-2020 21:04:36 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[12-Jun-2020 21:46:30 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 40
+[12-Jun-2020 21:46:30 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 42
+[12-Jun-2020 21:46:30 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 46
+[12-Jun-2020 21:47:08 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 40
+[12-Jun-2020 21:47:08 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 42
+[12-Jun-2020 21:47:08 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 46
+[12-Jun-2020 21:55:21 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 40
+[12-Jun-2020 21:55:21 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 42
+[12-Jun-2020 21:55:21 UTC] PHP Notice:  Undefined index: FILE in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 46
+[12-Jun-2020 21:55:21 UTC] PHP Notice:  Undefined variable: Archivo in /home/khcjsr6753m8/public_html/puav/controller/Exp.php on line 55
+[12-Jun-2020 22:16:26 UTC] PHP Notice:  Undefined variable: Archivo in /home/khcjsr6753m8/public_html/puav/controller/Edu.php on line 63
+[12-Jun-2020 22:22:38 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditEdu.php on line 61
+[12-Jun-2020 23:03:52 UTC] PHP Notice:  Undefined index: CLOSE in /home/khcjsr6753m8/public_html/puav/controller/EditVacant.php on line 12
+[14-Jun-2020 16:34:11 UTC] PHP Notice:  Undefined index: UserName in /home/khcjsr6753m8/public_html/puav/controller/EditVacant.php on line 17
+[14-Jun-2020 16:34:11 UTC] PHP Notice:  Undefined variable: USERID in /home/khcjsr6753m8/public_html/puav/controller/EditVacant.php on line 23
+[14-Jun-2020 18:28:37 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[14-Jun-2020 18:28:37 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[14-Jun-2020 18:28:37 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[14-Jun-2020 18:28:37 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[14-Jun-2020 18:28:37 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[14-Jun-2020 18:28:38 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[16-Jun-2020 18:36:01 UTC] PHP Notice:  Undefined index: TYPE in /home/khcjsr6753m8/public_html/puav/controller/Ref.php on line 6
+[16-Jun-2020 18:36:29 UTC] PHP Notice:  Undefined index: TYPE in /home/khcjsr6753m8/public_html/puav/controller/Ref.php on line 6
+[16-Jun-2020 18:37:25 UTC] PHP Notice:  Undefined index: TYPE in /home/khcjsr6753m8/public_html/puav/controller/Ref.php on line 6
+[16-Jun-2020 19:37:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php on line 21
+[16-Jun-2020 19:37:52 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php on line 21
+[16-Jun-2020 19:38:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php on line 21
+[16-Jun-2020 19:39:26 UTC] PHP Notice:  Undefined index: ID in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php on line 5
+[16-Jun-2020 19:39:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php:18
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php(18): PDO->query('SELECT * from d...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteVac.php on line 18
+[16-Jun-2020 19:41:25 UTC] PHP Warning:  unlink(../files/part 6.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 27
+[16-Jun-2020 19:41:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_experiencia`, CONSTRAINT `FK_oferentes_experiencia_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php:29
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php(29): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 29
+[16-Jun-2020 19:41:25 UTC] PHP Warning:  unlink(../files/part 6.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 27
+[16-Jun-2020 19:41:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_experiencia`, CONSTRAINT `FK_oferentes_experiencia_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php:29
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php(29): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 29
+[16-Jun-2020 19:41:32 UTC] PHP Warning:  unlink(../files/part 6.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 27
+[16-Jun-2020 19:41:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_experiencia`, CONSTRAINT `FK_oferentes_experiencia_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php:29
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php(29): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 29
+[16-Jun-2020 19:43:29 UTC] PHP Warning:  unlink(../files/part 6.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 27
+[16-Jun-2020 19:43:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_experiencia`, CONSTRAINT `FK_oferentes_experiencia_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php:29
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php(29): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteExp.php on line 29
+[16-Jun-2020 19:45:10 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:45:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_educacion`, CONSTRAINT `fk_oferentes_educacion_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php:28
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php(28): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 28
+[16-Jun-2020 19:45:18 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:45:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_educacion`, CONSTRAINT `fk_oferentes_educacion_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php:28
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php(28): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 28
+[16-Jun-2020 19:45:47 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:45:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_educacion`, CONSTRAINT `fk_oferentes_educacion_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php:28
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php(28): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 28
+[16-Jun-2020 19:46:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`puav_produccion`.`oferentes_educacion`, CONSTRAINT `fk_oferentes_educacion_002` FOREIGN KEY (`idArchivo`) REFERENCES `archivos` (`id`)) in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php:28
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php(28): PDO->query('DELETE from arc...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 28
+[16-Jun-2020 19:46:18 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:46:42 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:46:54 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:48:06 UTC] PHP Warning:  unlink(../files/DES.pdf.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/DeleteEdu.php on line 26
+[16-Jun-2020 19:50:58 UTC] PHP Warning:  unlink(../DES.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/eliminar.php on line 2
+[16-Jun-2020 19:51:11 UTC] PHP Warning:  unlink(../DES.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/eliminar.php on line 2
+[16-Jun-2020 19:51:26 UTC] PHP Warning:  unlink(../files/DES.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/eliminar.php on line 2
+[16-Jun-2020 19:54:35 UTC] PHP Warning:  unlink(../files/DES.pdf): No such file or directory in /home/khcjsr6753m8/public_html/puav/controller/eliminar.php on line 2
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:11:37 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:11:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:13:35 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:13:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:17:30 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:17:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:22:57 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:22:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:23:36 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:23:36 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:23:36 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:23:36 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:23:36 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:23:58 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 155
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:24:17 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 155
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:26:17 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 155
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:26:51 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 156
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:26:58 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 156
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:27:35 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:27:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:28:22 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:28:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:28:55 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:28:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:28:57 UTC] PHP Notice:  Undefined variable: ID in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 126
+[18-Jun-2020 20:28:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/khcjsr6753m8/public_html/puav/controller/EditO.php:127
+Stack trace:
+#0 /home/khcjsr6753m8/public_html/puav/controller/EditO.php(127): PDO->query('SELECT * from o...')
+#1 {main}
+  thrown in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 127
+[18-Jun-2020 20:29:19 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:29:19 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:29:19 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:29:19 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:29:19 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[18-Jun-2020 20:34:34 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[18-Jun-2020 20:34:34 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[18-Jun-2020 20:34:34 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[18-Jun-2020 20:34:34 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[18-Jun-2020 20:34:34 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[22-Jun-2020 03:49:11 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYF in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 38
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYV in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 47
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYA in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 56
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYVE in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 65
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYI in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 74
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined index: DISABILITYP in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 83
+[22-Jun-2020 03:50:31 UTC] PHP Notice:  Undefined variable: Ar in /home/khcjsr6753m8/public_html/puav/controller/EditO.php on line 154
